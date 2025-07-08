@@ -17,5 +17,6 @@ mask = nii_tool('img', filename_mask);
 %% call slice viewer to view axial slice with overlaid contour
 view_plane = 'axial';
 slice_number = 80;
+figure;
 view_slice(nii, view_plane, slice_number,...
     'Contours', mask);
