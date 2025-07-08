@@ -1,0 +1,3 @@
+[submodule "src/dicm2nii"]
+	path = src/dicm2nii
+	url = https://github.com/xiangruili/dicm2nii.git
