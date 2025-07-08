@@ -5,6 +5,10 @@ A set of tools for visualizing slices of 3D medical imaging data including MRI a
 * This viewer depends on the NIfTI structure returned by the `nii_tool` function from `dicm2nii` repository. Many thanks to GitHub user `xiangruili` for the use of their repository (under the associated open licence).
 
 ## Initialization
+* Clone this repository
+```bash
+git clone https://github.com/llawrence-main/slice-viewer.git
+```
 * Initialize the submodules:
 ```bash
 git submodule init
